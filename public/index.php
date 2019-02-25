@@ -1,3 +1,3 @@
 <?php
 
-echo 'site';
+include_once '../app/bootstrap.php';
