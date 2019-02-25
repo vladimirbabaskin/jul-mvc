@@ -1,8 +1,8 @@
 <?php
+include_once 'core/Controller.php';
+include_once 'core/Model.php';
+include_once 'core/Route.php';
+include_once 'core/Views.php';
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+Route::init();
 
