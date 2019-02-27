@@ -1,9 +1,9 @@
 <?php
 
-class Main_Controller {
+class Main_Controller extends Controller {
 
     public function index() {
-	echo 'Main->index';
+	$this->view->render('index_view', 'main_template');
     }
 
 }

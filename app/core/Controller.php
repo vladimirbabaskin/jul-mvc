@@ -1,16 +1,15 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- * Description of Controller
- *
- * @author web
- */
-class Controller {
-    //put your code here
+abstract class Controller {
+    /**
+     * 
+     */
+    public  $view;
+    public function __construct() {
+	$this->view = new Views();
+    }
+    
+    abstract public function index();	
+  
 }
