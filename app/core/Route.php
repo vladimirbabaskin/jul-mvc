@@ -43,7 +43,8 @@ class Route {
 
     static public function error404() {
 	header('HTTP/1.1 404 Not Found');
-	header("Status: 404 Not Found");
+	header('Status: 404 Not Found');
+	include_once '../app/views/not_found.php';
 	exit();
     }
 
